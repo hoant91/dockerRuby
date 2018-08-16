@@ -1,8 +1,6 @@
 FROM ubuntu:16.04
 FROM ruby:2.5
 
-RUN sudo apt-get -y update
-RUN sudo apt-get -y upgrade
 RUN sudo apt-get install -y sqlite3 libsqlite3-dev
  
 RUN apt-get update && apt-get install -y \
