@@ -4,7 +4,9 @@ FROM ruby:2.5
 RUN apt-get update && apt-get install -y \
   build-essential \
   nodejs
- 
+
+RUN sudo apt-get install -y sqlite3 libsqlite3-dev 
+
 RUN mkdir -p /app
 WORKDIR /app
  
