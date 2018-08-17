@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
 	def hello
-		render html: "WELLCOME TO DOCKER 123"
+		render html: "WELLCOME TO DOCKER Auto build"
 	end
 end
